@@ -1,0 +1,9 @@
+Host research
+     HostName research
+     Port 22
+     User jhoffman
+
+Host Aurora
+     User john
+     ForwardAgent yes
+     ProxyCommand ssh -q research nc Aurora 22
